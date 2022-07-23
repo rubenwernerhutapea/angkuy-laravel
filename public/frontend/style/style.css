@@ -316,7 +316,7 @@ section.angkot {
         margin-top: 60px;
     }
 
-    .jumbotron.main .display-3 {
+    .jumbotron.main .display-1 {
         font-size: 50px;
     }
 
@@ -326,5 +326,15 @@ section.angkot {
 
     .jumbotron.banner .text {
         font-size: 25px;
+    }
+
+    .about hr {
+        width: 300px;
+    }
+
+    .jumbotron-angkot hr,
+    .history hr,
+    .reason hr {
+        width: 300px;
     }
 }

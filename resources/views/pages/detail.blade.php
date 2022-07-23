@@ -22,7 +22,7 @@
             <img src="{{ Storage::url($angkot->gambar) }}" />
             <h2 class="font-weight-bold">Deskripsi</h2>
             <p>{!! $angkot->deskripsi !!}</p>
-            <iframe src="{{ $angkot->map }}" width="580" height="450"></iframe>
+            <iframe src="{{ $angkot->map }}" width="100%" height="400px"></iframe>
           </div>
         </div>
 

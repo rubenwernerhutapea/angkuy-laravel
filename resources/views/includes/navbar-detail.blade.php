@@ -12,27 +12,26 @@
         <a class="btn btn-outline-dark tombol my-1" href="{{ route('home') }}">Beranda</a>
         <a class="btn btn-outline-dark tombol my-1" href="{{ route('home') }}#about">Tentang</a>
         <a class="btn btn-dark tombol my-1" href="{{ route('angkot') }}">Angkot</a>
-      </div>
-      @auth
+        @auth
         @if (Auth()->user()->roles == 'ADMIN')
-          <ul class="navbar-nav d-none d-lg-flex">
-              <li class="nav-item dropdown">
-                  <a
-                      href="#"
-                      class="btn btn-warning tombol"
-                      id="navbarDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                  >
-                      {{ Auth::user()->name }}
-                  </a>
-                  <div class="dropdown-menu">
-                      <a href="{{ route('admin-dashboard') }}" class="dropdown-item">Halaman Admin</a>
-                  </div>
-              </li>
-          </ul>
+        <li class="nav-item dropdown">
+            <a
+                href="#"
+                class="btn btn-warning tombol"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+            >
+                {{ Auth::user()->name }}
+            </a>
+            <div class="dropdown-menu">
+                <a href="{{ route('admin-dashboard') }}" class="dropdown-item">Halaman Admin</a>
+            </div>
+        </li>
         @endif
       @endauth
+      </div>
+      
     </div>
   </div>
 </nav>
