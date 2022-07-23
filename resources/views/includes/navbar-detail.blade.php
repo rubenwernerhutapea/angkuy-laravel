@@ -17,7 +17,7 @@
         <li class="nav-item dropdown">
             <a
                 href="#"
-                class="btn btn-warning tombol"
+                class="btn btn-warning tombol my-1"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"

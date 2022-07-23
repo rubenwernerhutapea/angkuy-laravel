@@ -18,7 +18,6 @@
         <div class="col-lg-7 pl-lg-0">
           <div class="card card-details">
             <h1 class="font-weight-bold">{{ $angkot->nama }}</h1>
-            <p>sdfsdf</p>
             <img src="{{ Storage::url($angkot->gambar) }}" />
             <h2 class="font-weight-bold">Deskripsi</h2>
             <p>{!! $angkot->deskripsi !!}</p>
