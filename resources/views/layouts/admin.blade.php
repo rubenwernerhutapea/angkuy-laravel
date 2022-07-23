@@ -150,7 +150,7 @@
     <!--Menu sidebar -->
     <script src="{{ url('/backend/js/sidebarmenu.js') }}"></script>
     <!--Custom JavaScript -->
-    {{-- <script src="{{ url('/backend/js/custom.js') }}"></script> --}}
+    <script src="{{ url('/backend/js/custom.js') }}"></script>
     <!--This page JavaScript -->
     <!--chartis chart-->
     {{-- <script src="{{ url('/backend/plugins/bower_components/chartist/dist/chartist.min.js') }}"></script> --}}
