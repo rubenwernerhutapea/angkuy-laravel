@@ -25,7 +25,7 @@
           <h3>Selamat Datang!</h3>
         </div>
 
-        <div class="comment-widgets">
+        {{-- <div class="comment-widgets">
           <!-- Rules -->
           <div class="rules d-flex flex-row comment-row p-4 mt-0">
             <p>
@@ -35,7 +35,7 @@
               voluptates. A impedit qui at deserunt, alias incidunt facere quisquam et voluptatibus excepturi soluta ratione.
             </p>
           </div>
-        </div>
+        </div> --}}
       </div>
     </div>
     <!-- /.col -->

@@ -6,7 +6,7 @@ Daftar khusus admin
 
 @section('content')
 <!-- FORM -->
-<section class="regist login-form" id="login-form">
+{{-- <section class="regist login-form" id="login-form">
     <div class="container">
     <h4 class="d-flex justify-content-center py-3">Daftar Akun</h4>
     <form method="POST" action="{{ route('register') }}">
@@ -56,7 +56,7 @@ Daftar khusus admin
         </div>
     </form>
     </div>
-</section>
+</section> --}}
 <!-- AKHIR FORM -->
 
 

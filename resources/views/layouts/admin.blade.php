@@ -46,7 +46,7 @@
               <!-- Logo icon -->
               <b class="logo-icon">
                 <!-- Dark Logo icon -->
-                <img src="{{ url('/backend/img/logo-text.png') }}" height="50" alt="homepage" />
+                <img src="{{ url('/img/logo-text.png') }}" height="50" alt="homepage" />
               </b>
               <!--End Logo icon -->
             </a>
@@ -70,7 +70,7 @@
               <li>
                 <a class="profile-pic" href="#">
                   <span class="text-dark me-2">Halo, Admin</span>
-                  <img src="{{ url('/backend/img/logo-dark.png') }}" alt="user-img" width="25" />
+                  <img src="{{ url('img/logo-dark.png') }}" alt="user-img" width="25" />
                 </a>
               </li>
               <!-- End User profile -->
@@ -143,19 +143,19 @@
     <!-- Bootstrap tether Core JavaScript -->
     <script src="{{ url('/backend/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.12.1/datatables.min.js"></script>
-    <script src="{{ url('/backend/js/app-style-switcher.js') }}"></script>
-    <script src="{{ url('/backend/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
+    {{-- <script src="{{ url('/backend/js/app-style-switcher.js') }}"></script>
+    <script src="{{ url('/backend/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js') }}"></script> --}}
     <!--Wave Effects -->
-    <script src="{{ url('/backend/js/waves.js') }}"></script>
+    {{-- <script src="{{ url('/backend/js/waves.js') }}"></script> --}}
     <!--Menu sidebar -->
     <script src="{{ url('/backend/js/sidebarmenu.js') }}"></script>
     <!--Custom JavaScript -->
-    <script src="{{ url('/backend/js/custom.js') }}"></script>
+    {{-- <script src="{{ url('/backend/js/custom.js') }}"></script> --}}
     <!--This page JavaScript -->
     <!--chartis chart-->
-    <script src="{{ url('/backend/plugins/bower_components/chartist/dist/chartist.min.js') }}"></script>
-    <script src="{{ url('/backend/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js') }}"></script>
-    <script src="{{ url('/backend/js/pages/dashboards/dashboard1.js') }}"></script>
+    {{-- <script src="{{ url('/backend/plugins/bower_components/chartist/dist/chartist.min.js') }}"></script> --}}
+    {{-- <script src="{{ url('/backend/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js') }}"></script> --}}
+    {{-- <script src="{{ url('/backend/js/pages/dashboards/dashboard1.js') }}"></script> --}}
     @stack('addon-script')
   </body>
 </html>

@@ -30,11 +30,9 @@
         <h1 class="mb-4 font-weight-light">Tentang <span>Angkuy</span>...</h1>
         <hr>
         <p>
-          Pariwisata di Daerah Istimewa Yogyakarta selalu meningkat setiap tahunnya. Yogya menjadi magnet wisatawan manca dan domestik untuk selalu kangen berlibur ke Yogyakarta. Ada banyak alasan mengapa wisatawan menghabiskan waktu
-          liburan di Yogya (Biaya murah, Transportasi mudah, Kuliner enak dan murah, Surganya spot wisata alam, Wisata pantai, Budaya, Education, Sejarah dan masih banyak lagi) ditambah banyak sekali tempat-tempat wisata Yogya terbaru
-          2021 yang sedang hits sekarang ini. <br />
+          Angkuy merupakan website informasi seputar angkot. Pengunjung dapat mengetahui berbagai rute angkot yang ada di Kota Bogor. Mulai dari tarif perjalanan, trayek apa saja, hingga peta perjalanan yang tersedia. <br />
           <br />
-          Dengan begitu, Explore YOGYA mengajak traveler untuk mengunjungi beberapa tempat wisata yang berada di Yogyakarta. Are you ready to explore Yogyakarta?
+          Dengan begitu, Angkuy mengajak wisatawan untuk menggunakan angkot dalam perjalanannya di Kota Bogor. Are you ready to explore Bogor menggunakan Angkot?
         </p>
       </div>
     </div>
@@ -48,7 +46,7 @@
       <div class="col-md-7 text-center">
         <h1 class="mb-4 font-weight-light">Sejarah <span>Angkot</span> di Kota Bogor</h1>
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta neque laborum perspiciatis iusto optio itaque, earum tempora voluptatibus voluptas vero commodi totam sint molestias esse velit! Animi, commodi, vel, quas exercitationem delectus dolorem ad qui nisi placeat voluptas eveniet quaerat. Inventore perspiciatis quo temporibus iusto? Iste tempore quaerat labore tempora possimus. Laudantium obcaecati neque laborum, dolorem eum repellendus dignissimos exercitationem nam corrupti facere ea fugiat rem quo quisquam maiores perferendis nulla libero molestias temporibus nesciunt! Et corrupti explicabo similique, libero iure consectetur itaque commodi id, aspernatur debitis doloremque voluptatum ipsam, distinctio quis? Ex at illum sequi ratione dicta cum. Magni?</p>
+        <p>Angkutan Kota atau yang biasa disebut angkot adalah transportasi umum jenis minibus dengan rute yang sudah ditentukan. Angkot sudah menjadi ciri khas dan identitas masyarakat Kota Bogor. Berbagai artikel menyebutkan bahwa Kota Bogor adalah kota sejuta angkot, tentunya artikel tersebut bukan ucapan jempol belaka karena faktanya pada tahun 2015 diperkirakan jumlah angkot di Kota Bogor mencapai 3412 unit. Angkot di Kota Bogor juga memiliki keunikan dan ciri khas dibandingkan angkot di kota lain, tidak hanya dibedakan dengan nomor trayek, tapi masing-masing trayek dibedakan dengan warna yang berbeda-beda pada bagian bawah/bumper mobil. </p>
       </div>
     </div>
   </div>
@@ -68,7 +66,7 @@
         <div class="card m-2">
           <div class="card-body p-2">
             <img src="{{ url('/img/angkot-oren.png') }}" height="50" class="p-2"/>
-            <p>This is some text within a card body.</p>
+            <p>Mengurangi polusi berlebihan dari kendaraan pribadi</p>
           </div>
         </div>
       </div>
@@ -77,7 +75,7 @@
         <div class="card m-2">
           <div class="card-body p-2">
             <img src="{{ url('/img/angkot-light-blue.png') }}" height="50" class="p-2"/>
-            <p>This is some text within a card body.</p>
+            <p>Lebih sehat karena menggunakan transportasi publik</p>
           </div>
         </div>
       </div>
@@ -86,7 +84,7 @@
         <div class="card m-2">
           <div class="card-body p-2">
             <img src="{{ url('/img/angkot-dark-blur.png') }}" height="50" class="p-2"/>
-            <p>This is some text within a card body.</p>
+            <p>Banyak pilihan rute untuk mengakomodir ke seluruh Kota Bogor</p>
           </div>
         </div>
       </div>
@@ -95,7 +93,7 @@
         <div class="card m-2">
           <div class="card-body p-2">
             <img src="{{ url('/img/angkot-pink.png') }}" height="50" class="p-2"/>
-            <p>This is some text within a card body.</p>
+            <p>Membantu melestarikan kebudayaan Kota Bogor</p>
           </div>
         </div>
       </div>

@@ -42,7 +42,7 @@ span {
 
 .jumbotron.main {
     height: 100vh;
-    background-image: url("../img/cover-angkuy.jpg");
+    background-image: url("../../img/cover-angkuy.jpg");
     /* untuk membuat fix bg . contoh dari parallax*/
     background-attachment: fixed;
     background-size: cover;
@@ -88,7 +88,7 @@ span {
 .jumbotron.history {
     min-height: 400px;
     background-color: #fff;
-    background-image: url("../img/banner-angkuy.png");
+    background-image: url("../../img/banner-angkuy.png");
     /* untuk membuat fix bg . contoh dari parallax*/
     /* background-attachment: fixed; */
     background-size: cover;
@@ -239,7 +239,7 @@ section.angkot {
 
 .angkot .card img {
     height: 150px;
-    background-image: url("../img/thumbs/thumb-oren.png");
+    background-image: url("../../img/thumbs/thumb-oren.png");
     background-size: cover;
     background-position: center center;
     border: none;

@@ -17,7 +17,7 @@
   </head>
   <body>
     {{-- navbar --}}
-    @include('includes.navbar-angkot')
+    @include('includes.navbar-detail')
 
     {{-- page content --}}
     @yield('content')
