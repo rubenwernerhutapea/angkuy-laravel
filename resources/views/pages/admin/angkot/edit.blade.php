@@ -62,7 +62,7 @@
         <div class="col-sm-10">
           @if ($item->gambar)
             <div class="col-md-12">
-              <img src="{{ Storage::url($item->gambar) }}" height="100px" width="100px" alt="">
+              <img src="{{ Storage::url($item->gambar) }}" height="100px" width="200px" alt="">
             </div>
           @else
             <div class="col-md-12">
