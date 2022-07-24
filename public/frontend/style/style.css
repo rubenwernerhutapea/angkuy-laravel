@@ -332,9 +332,12 @@ section.angkot {
         width: 300px;
     }
 
-    .jumbotron-angkot hr,
     .history hr,
     .reason hr {
         width: 300px;
+    }
+
+    .jumbotron-angkot hr {
+        width: 270px;
     }
 }
