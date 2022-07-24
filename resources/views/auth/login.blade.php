@@ -1,5 +1,9 @@
 @extends('layouts.auth')
 
+@section('title')
+Login khusus admin
+@endsection
+
 @section('content')
 <!-- FORM -->
 <section class="login-form" id="login-form">

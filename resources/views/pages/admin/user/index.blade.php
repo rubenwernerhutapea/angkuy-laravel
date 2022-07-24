@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('title')
-  User Admin
+  Data Admin
 @endsection
 
 @section('content')
